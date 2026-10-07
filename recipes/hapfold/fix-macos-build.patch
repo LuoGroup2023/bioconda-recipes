@@ -1,6 +1,6 @@
 --- a/Makefile
 +++ b/Makefile
-@@ -92,6 +92,21 @@
+@@ -92,8 +92,23 @@
  DEPFLAGS      := -MMD -MP
  
  HF_INCLUDES   := -iquote . -I$(SRC_DIR)
@@ -33,7 +33,7 @@
  		$(HA_OBJS) $(HA_MAIN_OBJ) \
  		-lz -lpthread -lm \
  		-o $@
-@@ -313,11 +328,11 @@
+@@ -313,10 +328,10 @@
  		$(HF_CXXFLAGS) \
  		$(HF_OBJS) \
  		$(HF_MAIN_OBJ) \
