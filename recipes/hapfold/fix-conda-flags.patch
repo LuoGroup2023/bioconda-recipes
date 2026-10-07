@@ -1,5 +1,14 @@
 --- a/Makefile
 +++ b/Makefile
+@@ -91,7 +91,7 @@
+ 
+ DEPFLAGS      := -MMD -MP
+ 
+-HF_INCLUDES   := -I. -I$(SRC_DIR)
++HF_INCLUDES   := -iquote . -I$(SRC_DIR)
+ HA_INCLUDES   := -I$(HIFIASM_DIR)
+ 
+ 
 @@ -220,6 +220,8 @@
  
  $(HF_OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp | $(HF_OBJ_DIR)
