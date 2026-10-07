@@ -9,6 +9,7 @@ source:
   sha256: 1447de36ccc75f1b089f707702fba26c16a65bc8a4995dafcaa79b1982d12810
   patches:
     - fix-conda-flags.patch
+    - fix-macos-build.patch
 
 build:
   number: 0
