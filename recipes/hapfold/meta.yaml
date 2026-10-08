@@ -41,5 +41,3 @@ about:
 extra:
   recipe-maintainers:
     - Yichen-HNU
-  additional-platforms:
-    - linux-aarch64
